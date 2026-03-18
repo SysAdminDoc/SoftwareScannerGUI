@@ -2,6 +2,9 @@
 
 WPF GUI tool for auditing all installed software on a Windows system. Designed as a **debloat development aid** -- scan everything installed, then use the output to write targeted debloat/removal scripts.
 
+
+![Screenshot](screenshot.png)
+
 ## Features
 
 - **Multi-source scanning**: AppX packages, Win32 registry (x64/x86/user), provisioned packages, WinGet, services, scheduled tasks, startup entries
