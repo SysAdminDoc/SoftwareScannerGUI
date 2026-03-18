@@ -1,3 +1,5 @@
+<p align="center"><img src="icon.svg" width="128" height="128" alt="SoftwareScannerGUI"></p>
+
 # SoftwareScannerGUI
 
 WPF GUI tool for auditing all installed software on a Windows system. Designed as a **debloat development aid** -- scan everything installed, then use the output to write targeted debloat/removal scripts.
