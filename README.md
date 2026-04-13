@@ -2,6 +2,8 @@
 
 # SoftwareScannerGUI
 
+![Version](https://img.shields.io/badge/version-v1.1.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Platform](https://img.shields.io/badge/platform-PowerShell-lightgrey)
+
 WPF GUI tool for auditing all installed software on a Windows system. Designed as a **debloat development aid** -- scan everything installed, then use the output to write targeted debloat/removal scripts.
 
 
