@@ -467,6 +467,15 @@ Add-Type -AssemblyName System.Windows.Forms
 $reader = (New-Object System.Xml.XmlNodeReader $XAML)
 $Window = [Windows.Markup.XamlReader]::Load($reader)
 
+# codex-branding:start
+                try {
+                    $brandingIconPath = Join-Path $PSScriptRoot 'icon.ico'
+                    if (Test-Path $brandingIconPath) {
+                        $Window.Icon = [System.Windows.Media.Imaging.BitmapFrame]::Create((New-Object System.Uri($brandingIconPath)))
+                    }
+                } catch {
+                }
+                # codex-branding:end
 # Get controls
 $btnScan = $Window.FindName("btnScan")
 $btnClearLog = $Window.FindName("btnClearLog")
